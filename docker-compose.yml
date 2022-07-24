@@ -10,7 +10,7 @@ services:
       - ./app:/var/www/html
       - ./docker/mysql/my.cnf:/etc/mysql/my.cnf
     ports:
-      - 8107:3306
+      - 8108:3306
     environment:
       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
       - MYSQL_DATABASE=${MYSQL_DATABASE}
